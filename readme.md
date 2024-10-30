@@ -7,7 +7,7 @@
 # Tugas 6 Pertemuan 7
 ## Cara menambahkan Komponen di halaman Ionic
 
-1. Memilih component
+### 1. Memilih component
 Ionic Framework menyediakan component-component UI di [Ionic Framework Documentation](https://ionicframework.com/docs), pilih component yang diinginkan.
 
 contoh component :
@@ -18,7 +18,7 @@ ion-avatar
 </ion-avatar>
 ```
 
-2. Menyalin component ke kode
+### 2. Menyalin component ke kode
 setelah menemukan component yang cocok, copy kode dan letakan pada file `home.page.html` pada folder `src\app\home\home.page.html`.
 
 ```html
@@ -45,8 +45,8 @@ setelah menemukan component yang cocok, copy kode dan letakan pada file `home.pa
 </ion-content>
 ```
 
-3. Mengubah style component
-tambahkan css ke file home.page.scss
+### 3. Mengubah style component
+tambahkan css ke file home.page.scss untuk mengubah tampilan component.
 ```html
 ion-avatar {
   --border-radius: 4px;
